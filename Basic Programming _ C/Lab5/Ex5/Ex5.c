@@ -4,17 +4,19 @@
 int N;
 int main(){
     scanf("%d", &N);
-    float arr[N][N];
+    float A[N][N];
 
     for (int i = 0; i < N; i++)
     {
         for (int j = 0; j < N; j++)
         {
-            scanf("%f", &arr[i][j]);
+            scanf("%f", &A[i][j]);
         }
     }
-    print_trans(arr);
-    // printf("Sum = %.3f", sum(arr));
-    // printf("Determint of the given matrix is: %.2f", det(arr, N));
-    // print_invert(arr , N);
+    printf("The sum of all the matrix A's elements is: %.3f \n", sum(A));
+    printf("The transposed matrix of A is \n");
+    print_trans(A);
+    printf("Determint of the given matrix is: %.2f \n", det(A, N));
+    printf("The inversed matrix of A is: \n");
+    print_invert(A, N);
 }
