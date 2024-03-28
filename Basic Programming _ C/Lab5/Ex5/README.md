@@ -5,3 +5,6 @@
     - Print the transposed matrix of A
     - (option)The Determinant of the matrix A
     - (option) The inversed matrix of A
+
+
+!! If you don't understand any part, contact me on FB.
